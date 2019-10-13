@@ -1,19 +1,28 @@
 import React, { Component } from 'react';
 
 class Footer extends Component {
-  status = {
+  state = {
     value: '',
-  }
+  };
   
-  onChange = (e) => {
+  onChangeInput = (e) => {
     e.preventDefault();
+    const {value} = this.state;
+    
     this.setState({
       value: e.target.value,
     });
-  }
+  };
   
+  menus = ['회사소개', '문의하기', '이용약관', '개인정보처리방침', '매물관리규정', '자동저장서비스'];
+  
+  menu = this.menus.map((v) => (
+    <li key={v}>{v}</li>
+  ));
   
   render() {
+    const {value} = this.state;
+    
     return (
       <>
         <footer id="footer" className="footer">
@@ -21,16 +30,11 @@ class Footer extends Component {
             <div className="footer-top">
               <nav className="nav">
                 <ul>
-                  <li>회사소개</li>
-                  <li>문의하기</li>
-                  <li>이용약관</li>
-                  <li>개인정보처리방침</li>
-                  <li>매물관리규정</li>
-                  <li>자동저장서비스</li>
+                  {this.menu}
                 </ul>
               </nav>
               <div className="search">
-                <input type="search" name="seaerch" id="search-num" placeholder="매물번호 조회" value={this.value} onChange={this.inputSearch} />
+                <input placeholder="매물번호 조회" value={value} onChange={this.onChangeInput} />
               </div>
             </div>
             <div className="footer-wrap">
@@ -53,19 +57,13 @@ class Footer extends Component {
               </div>
               <div className="social-btn">
                 <div className="btn insta">
-                  <a href="javascript:void(0)">
-                    <img src="" alt=""/>
-                  </a>
+                  <a><img src="" alt=""/></a>
                 </div>
                 <div className="btn fb">
-                  <a href="javascript:void(0)">
-                    <img src="" alt=""/>
-                  </a>
+                  <a><img src="" alt=""/></a>
                 </div>
                 <div className="btn naver">
-                  <a href="javascript:void(0)">
-                    <img src="" alt=""/>
-                  </a>
+                  <a><img src="" alt=""/></a>
                 </div>
               </div>
             </div>

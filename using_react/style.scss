@@ -1,0 +1,352 @@
+// reset
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, address, cite, code, del, em, img, ins, q, s,
+small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html *, *::before, *::after {
+	box-sizing: inherit;
+	word-break: keep-all;
+}
+html {
+	box-sizing: border-box;
+}
+a, button {
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+}
+button {
+	border: 0;
+	background-color: transparent;
+}
+img {
+	display: block;
+}
+/* img, embed, object, video {
+	max-width: 100%;
+} */
+ul, ol {
+	list-style: none;
+}
+input {
+	width: 100%;
+	background-color: #fff;
+}
+table {
+	border-collapse: collapse;
+}
+
+// placeholder
+@mixin placeholder {
+	&::-webkit-input-placeholder {
+		@content;
+	}
+	&::-moz-placeholder {
+		@content;
+	}
+	&:-ms-input-placeholder {
+		@content;
+	}
+	&::placeholder {
+		@content;
+	}
+}
+@mixin flex-center {
+	justify-content: center;
+	align-items: center;
+}
+
+// grid
+@mixin grid {
+	display: -ms-grid;
+	display: grid;
+}
+@mixin grid-template($row, $column) {
+	-ms-grid-columns: $column;
+	-ms-grid-rows: $row;
+	grid-template: $row / $column;
+}
+@mixin grid-template-columns($value) {
+	-ms-grid-columns: $value;
+	grid-template-columns: $value;
+}
+@mixin grid-template-rows($value) {
+	-ms-grid-rows: $value;
+	grid-template-rows: $value;
+}
+@mixin grid-column($value) {
+	-ms-grid-column: $value;
+	grid-column: $value;
+}
+@mixin grid-column-start-end($start, $end) {
+	-ms-grid-column-span: $end - $start;
+	grid-column-start: $start;
+	grid-column-end: $end;
+}
+@mixin grid-row($value) {
+	-ms-grid-row: $value;
+	grid-row: $value;
+}
+@mixin grid-row-start-end($start, $end) {
+	-ms-grid-row-span: $end - $start;
+	grid-row-start: $start;
+	grid-row-end: $end;
+}
+
+// flexbox
+@mixin flex {
+	display: -ms-flexbox;
+	display: flex;
+}
+@mixin justify-content($value: flex-start) {
+	@if $value == flex-start {
+		-ms-flex-pack: start;
+	} @else if $value == flex-end {
+		-ms-flex-pack: end;
+	} @else if $value == space-between {
+		-ms-flex-pack: justify;
+	} @else if $value == space-around {
+		-ms-flex-pack: distribute;
+	} @else {
+		-ms-flex-pack: $value;
+	}
+	justify-content: $value;
+}
+@mixin flex-direction($value: row) {
+	-ms-flex-direction: $value;
+	flex-direction: $value;
+}
+@mixin align-items($value: stretch) {
+	@if $value == flex-start {
+		-ms-flex-align: start;
+	} @else if $value == flex-end {
+		-ms-flex-align: end;
+	} @else {
+		-ms-flex-align: $value;
+	}
+	align-items: $value;
+}
+@mixin align-self($value: auto) {
+	@if $value == flex-start {
+		-ms-flex-item-align: start;
+    	} @else if $value == flex-end {
+		-ms-flex-item-align: end;
+	} @else {
+		-ms-flex-item-align: $value;
+	}
+	align-self: $value;
+}
+@mixin flex-grow($int: 1) {
+	-ms-flex: $int;
+	flex-grow: $int;
+}
+@mixin flex-wrap($value: nowrap) {
+	@if $value == nowrap {
+		-ms-flex-wrap: none;
+	} @else {
+		-ms-flex-wrap: $value;
+	}
+	flex-wrap: $value;
+}
+@mixin order($int: 0) {
+	-ms-flex-order: $int;
+	order: $int;
+}
+
+// centered element
+@mixin flex-centered {
+	@include justify-content(center);
+	@include align-items(center);
+}
+
+// media query
+@mixin for-tablet-and-above {
+	@media screen and (min-width: 768px) {
+		@content;
+	}
+}
+@mixin for-above-the-tablet {
+	@media screen and (min-width: 769px) {
+		@content;
+	}
+}
+@mixin for-laptop-and-above {
+	@media screen and (min-width: 1024px) {
+		@content;
+	}
+}
+@mixin for-above-the-laptop {
+	@media screen and (min-width: 1025px) {
+		@content;
+	}
+}
+@mixin for-above-the-laptop-large {
+	@media screen and (min-width: 1441px) {
+		@content;
+	}
+}
+@mixin for-laptop-large-and-above {
+	@media screen and (min-width: 1440px) {
+		@content;
+	}
+}
+@mixin for-laptop-large-and-below {
+	@media screen and (max-width: 1440px) {
+		@content;
+	}
+}
+@mixin for-below-laptop-large {
+	@media screen and (max-width: 1439px) {
+		@content;
+	}
+}
+@mixin for-laptop-and-below {
+	@media screen and (max-width: 1024px) {
+		@content;
+	}
+}
+@mixin for-below-the-laptop {
+	@media screen and (max-width: 1023px) {
+		@content;
+	}
+}
+@mixin for-tablet-and-below {
+	@media screen and (max-width: 768px) {
+		@content;
+	}
+}
+@mixin for-phone-only {
+	@media screen and (max-width: 430px) {
+		@content;
+ 	}
+}
+
+
+
+
+
+
+
+
+// =======================================
+// global
+// 
+
+// typography
+body, a {
+	/* write font style */
+}
+a:hover {
+	/* write color or text-decoration property */
+}
+
+// clearfix
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+// blind text
+.blind {
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+// hide element
+.hide {
+	position: absolute;
+	overflow: hidden;
+	margin: -1px;
+	padding: 0;
+	width: 1px;
+	height: 1px;
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+}
+
+// line break
+.line-break {
+	display: inline-block;
+}
+
+// button
+.btn {
+	cursor: pointer;
+}
+
+// toggle action
+.active {
+	display: block !important;
+}
+
+
+// background
+.dim {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+// rounded border
+.rounded {
+	border-radius: 5px;
+}
+
+// layout
+body {
+	@include flex;
+	@include flex-direction(column);
+}
+footer {
+	margin-top: auto;
+}
+.flex {
+	@include flex;
+}
+.grid {
+	@include grid;
+}
+.flex-center {
+	@include flex-center;
+}
+.flex-justify-center {
+	@include justify-content(center);
+}
+.flex-align-center {
+	@include align-items(center);
+}
+.flex-column {
+  @include flex-direction(column);
+}
+
+
+
+
+
+
+
+
+
+// ==================================================================
+// footer
+// 
+
+.footer {
+  ul {
+    @include justify-content(space-around);
+  }
+}

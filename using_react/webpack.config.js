@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   name: 'component-setting',
@@ -15,7 +16,7 @@ module.exports = {
 	},
 	module: {
 		rules: [{
-			test: /\.jsx?$/,
+			test: /\.jsx?$/i,
 			loader: 'babel-loader',
 			options: {
 				presets: [
@@ -36,14 +37,21 @@ module.exports = {
 				],
 			},
 		}, {
-			test: /\.css$/i,
-			use: ['style-loader', 'css-loader'],
+			test: /\.css|scss$/i,
+			use: [
+        MiniCssExtractPlugin.loader,
+        'css-loader',
+        'sass-loader',
+      ],
 		}],
 	},
 	plugins: [
 		new webpack.LoaderOptionsPlugin({
 			debug: true,
-		}),
+    }),
+    new MiniCssExtractPlugin({
+      filename: 'style.css',
+    }),
 	],
 	output: {
 		path: path.join(__dirname, 'dist'),

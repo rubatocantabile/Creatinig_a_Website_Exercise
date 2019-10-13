@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 
 import index from './dist/index';
+// import './dist/style.css';
 
 import { hot } from 'react-hot-loader/root';
 

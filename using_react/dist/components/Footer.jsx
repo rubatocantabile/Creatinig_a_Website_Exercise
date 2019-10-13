@@ -29,7 +29,7 @@ class Footer extends Component {
           <div className="container">
             <div className="footer-top">
               <nav className="nav">
-                <ul>
+                <ul className="flex">
                   {this.menu}
                 </ul>
               </nav>

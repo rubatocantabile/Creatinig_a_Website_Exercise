@@ -13,10 +13,19 @@ scss를 css로 변환해 주는 컴파일러입니다.
 
 ## 실습 사이트
 
+- [D.Lab](http://www.intermajor.com/d.lab/)
 - [Amore Pacific Design](https://design.amorepacific.com)
 - [goodonyou](https://goodonyou.eco)
 - [다방](https://www.dabangapp.com)
 
-실습 사이트는 얼마든지 바뀔 수 있습니다.
+실습 사이트는 바뀔 수 있습니다.
 
 직접 만들어 보고 싶은 사이트가 있으면 추천해 주셔도 좋습니다.
+
+
+## 학습 사이트
+
+- [grid 속성 학습](http://cssgridgarden.com/#ko)
+- [flexbox 속성 학습](http://flexboxfroggy.com/#ko)
+- [SASS(SCSS) 학습](https://heropy.blog/2018/01/31/sass/)
+  - [SASS 학습 보충](https://sass-guidelin.es/ko/)

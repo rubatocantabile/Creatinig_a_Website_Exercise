@@ -34,7 +34,7 @@ scss를 css로 변환해 주는 컴파일러입니다.
 
 ## 자료/정보 페이지
 
-- [HTML5 명세(한국어)](http://html5.clearboth.org/spec.html)
+- [HTML5 명세서](https://html.spec.whatwg.org/multipage/)
 - [Normalize.css](https://necolas.github.io/normalize.css/)
 - [Reset CSS - Eric Meyer](https://meyerweb.com/eric/tools/css/reset/)
 - [Reset CSS - Richard Clark](http://html5doctor.com/html-5-reset-stylesheet/)

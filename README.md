@@ -42,3 +42,4 @@ scss를 css로 변환해 주는 컴파일러입니다.
 - [Mastering Emmet 2](https://www.sitepoint.com/faster-workflow-mastering-emmet-part-2/)
 - [Mastering Emmet 3](https://www.sitepoint.com/faster-workflow-mastering-emmet-part-3/)
 - [Mastering Emmet 4](https://www.sitepoint.com/faster-workflow-mastering-emmet-part-4/)
+- [JavaScript 첫 걸음](https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps)

@@ -43,3 +43,6 @@ scss를 css로 변환해 주는 컴파일러입니다.
 - [Mastering Emmet 3](https://www.sitepoint.com/faster-workflow-mastering-emmet-part-3/)
 - [Mastering Emmet 4](https://www.sitepoint.com/faster-workflow-mastering-emmet-part-4/)
 - [JavaScript 첫 걸음](https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps)
+- [head 태그에 들어가는 태그 정보](https://github.com/joshbuchea/HEAD)
+- [<head> 안에 들어갈 수 있는 모든 것의 목록](https://github.com/Lutece/HEAD/blob/master/README.md)
+- [head 태그 내 meta 요소(meta 태그)](http://webberstudy.com/html-css/html-3/meta-elements/)

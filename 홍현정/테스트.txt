@@ -1,0 +1,14 @@
+네임스페이스와 룸
+
+https://codevkr.tistory.com/60?category=719250
+
+\
+
+
+
+멘토링때, 깃허브 키 값 생성해서 붙여넣기 물어보기
+
+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAlIfrke9+B/ikteCDEQ3XkKuAMWL7vWF0hRAqI2F8RJaj8qNrzimI/B9ATCzh+ZoMA4Mqol642DlkFFtHbe0yJcaXh20ViAvxR9rn7z7wLifqMI8xDRnaMQ5ZSI6a9bJHpW0CgkNf7iddjVxCGWUnVOFPcN2Xk96IPdOKYhVC4hTyg2Q3dskVBMXV3d9Kx1PZUat81uI2pc7YA5jdZOktU6rhOjlYQbOwcnkmEbCeyCnp/bK+pgMvCpNsK0/NVGX5vSUm7Xi5MOix6jCKijp86/cScCC6Fvx8Ye77l2uUPwSc4V8F8ugrDhDkEe3crWATCoDC1xDr3953Cv7vr3Ad9Q== rsa-key-20191018

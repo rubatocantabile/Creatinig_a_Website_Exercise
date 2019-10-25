@@ -48,3 +48,5 @@ scss를 css로 변환해 주는 컴파일러입니다.
 - [head 태그 내 meta 요소(meta 태그)](http://webberstudy.com/html-css/html-3/meta-elements/)
 - [JavaScript 재입문하기 (JS ​튜토리얼)](https://developer.mozilla.org/ko/docs/A_re-introduction_to_JavaScript)
 - [모든 자바스크립트 개발자가 알아야 하는 33가지 개념](https://github.com/yjs03057/33-js-concepts)
+- [생활코딩 node.js 강좌](https://opentutorials.org/module/2026/11850)
+- [코드를 이미지로 예쁘게 변환](https://carbon.now.sh/)

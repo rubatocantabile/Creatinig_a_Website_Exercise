@@ -1,0 +1,35 @@
+.first {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+}
+
+.second {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.third {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.third1 {
+  top: 30px;
+  right: 60px;
+  background-color: blue;
+}
+
+.third2 {
+  top: 0;
+  right: 0;
+  background-color: purple;
+}
+
+div {
+  padding: 1em;
+  color: #fff;
+}

@@ -25,11 +25,17 @@ scss를 css로 변환해 주는 컴파일러입니다.
 
 ## 학습합시다!
 
-- [SASS(SCSS) 강좌 1](https://heropy.blog/2018/01/31/sass/)
+- **[SASS(SCSS) 강좌 1](https://heropy.blog/2018/01/31/sass/)**
 - [SASS(SCSS) 강좌 2](https://velopert.com/1712)
 - [SASS 공식 사이트](https://sass-guidelin.es/ko/)
-- [grid 속성](http://cssgridgarden.com/#ko)
-- [flexbox 속성](http://flexboxfroggy.com/#ko)
+- **[grid 속성](http://cssgridgarden.com/#ko)**
+- **[flexbox 속성](http://flexboxfroggy.com/#ko)**
+- [transform 속성을 학습할 수 있는 예제 페이지](https://codepen.io/rgy0409/pen/rQOrVe)
+- **[CSS: 선택자(Selector) 이해](http://www.nextree.co.kr/p8468/)**
+- [head 태그에 들어가는 태그 정보](https://github.com/joshbuchea/HEAD)
+- [\<head\> 안에 들어갈 수 있는 모든 것의 목록](https://github.com/Lutece/HEAD/blob/master/README.md)
+- [head 태그 내 meta 요소(meta 태그)](http://webberstudy.com/html-css/html-3/meta-elements/)
+- [\[생활코딩\] Server Side JavaScript](https://opentutorials.org/module/2026/11850)
 
 
 ## 자료/정보 페이지
@@ -42,12 +48,11 @@ scss를 css로 변환해 주는 컴파일러입니다.
 - [Mastering Emmet 2](https://www.sitepoint.com/faster-workflow-mastering-emmet-part-2/)
 - [Mastering Emmet 3](https://www.sitepoint.com/faster-workflow-mastering-emmet-part-3/)
 - [Mastering Emmet 4](https://www.sitepoint.com/faster-workflow-mastering-emmet-part-4/)
-- [JavaScript 첫 걸음](https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps)
-- [head 태그에 들어가는 태그 정보](https://github.com/joshbuchea/HEAD)
-- [\<head\> 안에 들어갈 수 있는 모든 것의 목록](https://github.com/Lutece/HEAD/blob/master/README.md)
-- [head 태그 내 meta 요소(meta 태그)](http://webberstudy.com/html-css/html-3/meta-elements/)
-- [JavaScript 재입문하기 (JS ​튜토리얼)](https://developer.mozilla.org/ko/docs/A_re-introduction_to_JavaScript)
 - [모든 자바스크립트 개발자가 알아야 하는 33가지 개념](https://github.com/yjs03057/33-js-concepts)
-- [생활코딩 node.js 강좌](https://opentutorials.org/module/2026/11850)
-- [코드를 이미지로 예쁘게 변환](https://carbon.now.sh/)
-
+- [코드를 이미지로 예쁘게 변환해주는 사이트](https://carbon.now.sh/)
+- [flexbox의 각 속성에 따른 변화를 시각적으로 확인할 수 있는 사이트](https://flexbox.help/)
+- [정규표현식(정규식)](https://opentutorials.org/course/743/6580)
+- [JavaScript 첫 걸음](https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps)
+- [JavaScript 재입문하기 (JS ​튜토리얼)](https://developer.mozilla.org/ko/docs/A_re-introduction_to_JavaScript)
+- **[css3 선택자(셀렉터)](https://techhtml.github.io/selectors/)**
+- [:Nth-Child() 선택자에 대한 CSS 적용방법, 홀수 및 짝수번째 요소 선택](https://webisfree.com/2015-10-10/[css]-nth-child()-선택자에-대한-css-적용방법-홀수-및-짝수번째-요소-선택)

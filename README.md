@@ -36,6 +36,7 @@ scss를 css로 변환해 주는 컴파일러입니다.
 - [\<head\> 안에 들어갈 수 있는 모든 것의 목록](https://github.com/Lutece/HEAD/blob/master/README.md)
 - [head 태그 내 meta 요소(meta 태그)](http://webberstudy.com/html-css/html-3/meta-elements/)
 - [\[생활코딩\] Server Side JavaScript](https://opentutorials.org/module/2026/11850)
+- [HTML/CSS 강좌(제로초)](https://www.youtube.com/watch?v=ohpjJNal2lk&list=PLcqDmjxt30Rsb8Zpgbemt-NaCOjr2WIUj)
 
 
 ## 자료/정보 페이지

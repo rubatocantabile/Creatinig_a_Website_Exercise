@@ -28,10 +28,14 @@ scss를 css로 변환해 주는 컴파일러입니다.
 - **[SASS(SCSS) 강좌 1](https://heropy.blog/2018/01/31/sass/)**
 - [SASS(SCSS) 강좌 2](https://velopert.com/1712)
 - [SASS 공식 사이트](https://sass-guidelin.es/ko/)
-- **[grid 속성](http://cssgridgarden.com/#ko)**
-- **[flexbox 속성](http://flexboxfroggy.com/#ko)**
+- **[grid garden](http://cssgridgarden.com/#ko)**
+- **[flexbox froggy](http://flexboxfroggy.com/#ko)**
+- [flexbox defence](http://www.flexboxdefense.com/)
+- [flexbox zombies](https://mastery.games/p/flexbox-zombies)
+- [css animation course](https://css-animations.io/)
 - [transform 속성을 학습할 수 있는 예제 페이지](https://codepen.io/rgy0409/pen/rQOrVe)
 - **[CSS: 선택자(Selector) 이해](http://www.nextree.co.kr/p8468/)**
+- [css diner(선택자 학습)](https://flukeout.github.io/)
 - [head 태그에 들어가는 태그 정보](https://github.com/joshbuchea/HEAD)
 - [\<head\> 안에 들어갈 수 있는 모든 것의 목록](https://github.com/Lutece/HEAD/blob/master/README.md)
 - [head 태그 내 meta 요소(meta 태그)](http://webberstudy.com/html-css/html-3/meta-elements/)

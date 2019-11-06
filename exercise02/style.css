@@ -2,6 +2,20 @@
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
+body {
+  margin: 0;
+  padding: 0 10%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
 .header {
   justify-content: space-between;
   align-items: center;
@@ -10,10 +24,10 @@
 }
 
 .btn {
-  width: 30px;
-  height: 30px;
-  transform: rotate(-45deg);
+  width: 22px;
+  height: 22px;
   cursor: pointer;
+  transition: transform 1s;
 }
 
 .dim {
@@ -25,6 +39,14 @@
   left: 0;
   z-index: 1;
   background-color: rgba(0,0,0,0.4);
+}
+
+.left a {
+  color: #000;
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav {
@@ -51,23 +73,72 @@ a {
 span {
   display: block;
   width: 100%;
-  border: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 span:first-child {
-  transform: rotate(45deg) translateX(2px);
+  transform: rotate(90deg) translateX(10px);
 }
 span:last-child {
-  transform: rotate(-45deg);
+  transform: translate(0, 9px);
 }
 
 .active .btn {
-  position: absolute;
+  position: relative;
   z-index: 2;
-  transform: rotate(0deg);
+  transform: rotate(45deg);
+}
+
+.active span {
+  border-color: #fff;
 }
 
 .active .nav,
 .active .dim {
   display: block;
 }
+
+
+
+
+
+
+/* ==========================================================
+  contents 
+  */
+  
+.contents {
+  /* grid-template: repeat(4, 1fr) / repeat(2, 1fr); */
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+.contents .column3 {
+  grid-column: 1 / 3;
+}
+
+
+.contents .column4 {
+  grid-row: 3;
+}
+
+.contents .column5 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.contents .column6 {
+  grid-row: 4;
+  grid-column: 1 / 3;
+}
+
+
+
+
+
+
+
+

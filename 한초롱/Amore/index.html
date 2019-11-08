@@ -1,33 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Amorepacific Design Center</title>
 </head>
 <body>
-  <header>
-    <nav>
-       <h1>AMOREPACIFIC DESIGN</h1>
-       <ul>
-         <li>Works</li>
-         <li>Arita</li>
-         <li>About</li>
-         <li>Search</li>
-       </ul>
-    </nav>
-   
+  <header id="header" class="header flex">
+    <div class="left">
+      <div>
+        <a href="#">AMOREPACIFIC DESIGN</a>
+      </div>
+    </div>
+    <div class="right">
+      <div class="btn">
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Arita</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Search</a></li>
+        </ul>
+      </nav>
+      <div class="dim"></div>   
+    </div>  
   </header>
-  <div></div>
-  <div></div>
-  <div></div>
+
+  <!-- contents -->
+  <main id="contents" class="contents grid">
+    <div class="column column1">
+      <dl class="text flex">
+        <dt>설화수 랜드마크 에디션: 자음생 트라이얼 세트</dt>
+        <dd>Sulhwasoo: Jaeumseng Trial Set Landmark Edition</dd>
+      </dl>
+      <div class="dim2"></div>
+      <img src="./img/img1.jpg" alt="">
+    </div>
+    <div class="column column2">
+      <dl class="text flex">
+        <dt>향장 10월</dt>
+        <dd>Hyangjang, October 2019</dd>
+      </dl>
+      <div class="dim2"></div>
+      <img src="./img/img4.jpg" alt="">
+    </div>
+    <div class="column column3">
+      <dl class="text flex">
+        <dt>설화수 5.5세대 첫 매장: 북경 한광 매장</dt>
+        <dd>Sulwhasoo's New Beijing store</dd>
+      </dl>
+      <div class="dim2"></div>
+      <img src="./img/img6.jpg" alt="">
+    </div>
+    <div class="column column4">
+      <dl class="text flex">
+        <dt>향장 9월</dt>
+        <dd>Hyangjang, September 2019</dd>
+      </dl> 
+      <div class="dim2"></div>
+      <img src="./img/img2.jpg" alt="">
+    </div>   
+    <div class="column column5">
+      <dl class="text flex">
+        <dt>향장 8월</dt>
+        <dd>Hyangjang, August 2019</dd>
+      </dl>
+      <div class="dim2"></div>
+      <img src="./img/img3.jpg" alt="">
+    </div>
+    <div class="column column6">
+      <dl class="text flex">
+        <dt>아이오페 New Store Identitiy 개발</dt>
+        <dd>IOPE: New Store Identity</dd>
+      </dl>
+      <div class="dim2"></div>
+      <img src="./img/img5.jpg" alt="">
+    </div>
+  </main>  <!--  contents -->
+
+  <script src="./common.js"></script>
+  
   <footer>
-      <hi>AMOREPACIFIC DESIGN</hi>
-      <a href="로고...""></a>
-      <h3>AP Group Brands</h3>
-      <h5>Copyright 2019. Amorepacific Desigh</h5>
-      <h5>Center.All rights reserved.</h5>
+    <div id="footer_wrapper">
+      <div class="footer_right">
+        <a href="http://www.apgroup.com/int/ko/brands.html" target="_blank"><span>AP Group Brands</span></a>
+      </div>
+      <p>AMOREPACIFIC DESIGN</p>
+      <a href="https://www.pinterest.co.kr/ABDLAP/boards" target="_blank">
+        <li id="footer_sns_pinterest">
+          <img src="https://www.postyellow.com/client/apdc/cdn/dist/image/sns_pinterest.svg">
+        </li>
+       </a>
+      <div class="footer_left">
+        <p>Copyright 2019. Amorepacific Design Center.All rights reserved.</p>
+      </div>      
+    </div> 
   </footer>
 </body>
 </html>

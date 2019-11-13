@@ -1,0 +1,15 @@
+.flex{
+	display:flex;
+}
+
+.box{
+	dispaly:;
+}
+
+.detailmore{
+	justify-content: flex-end;
+}
+
+.detailinfo{
+	justify-content: flex-start;
+}

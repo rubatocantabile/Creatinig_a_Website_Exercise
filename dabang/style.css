@@ -1,0 +1,223 @@
+/*	author: biniruu
+	v2.3 | 20190722
+*/
+
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, address, cite, code, del, em, img, ins, q, s,
+small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html *, *::before, *::after {
+	box-sizing: inherit;
+}
+html {
+	box-sizing: border-box;
+}
+a, button {
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+}
+button {
+	background-color: transparent;
+}
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
+	box-shadow: none;
+}
+img {
+	width: 100%;
+	/* display: block; */
+}
+/* img, embed, object, video {
+	max-width: 100%;
+} */
+ul, ol {
+	list-style: none;
+}
+input {
+	width: 100%;
+background-color: #fff;
+}
+input.btn {
+	border-width: 0;
+	cursor: pointer;
+}
+table {
+	border-collapse: collapse;
+}
+
+
+
+
+
+
+
+/* ======================================
+/* global
+/* ===================== */
+
+/* typography */
+body, a {
+	/* write font style */
+}
+a:hover {
+	/* write color or text-decoration */
+}
+
+/* clearfix */
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* blind text*/
+.blind {
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+/* hide element */
+.hide {
+	position: absolute;
+	overflow: hidden;
+	margin: -1px;
+	padding: 0;
+	width: 1px;
+	height: 1px;
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+}
+
+/* line break */
+.line-break {
+	display: inline-block;
+}
+
+/* layout */
+body {
+	display: flex;
+	flex-direction: column;
+	/* margin-bottom: 3em; */
+}
+footer {
+	margin-top: auto;
+}
+.grid {
+display: -ms-grid;
+display: grid;
+}
+.flex {
+display: -ms-flexbox;
+display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+/* ======================================================
+  시작
+*/
+
+
+.info {
+  width: 100%;
+  height: 630px;
+  padding-top: 70px;
+  background-color: rgb(46, 89, 166);
+}
+
+.container {
+  width: 100%;
+  margin: 0 93px;
+  flex-direction: column;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 0.7em;
+}
+
+.columns {
+  justify-content: space-between;
+}
+
+.item {
+  width: 47%;
+}
+
+.img-wrap {
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0,0,0,0.5) 39%, rgba(105,105,105,0.5) 64%, rgba(255,255,255,0.3) 100%), url(./img/a.jpg) no-repeat 50% 50% / cover;
+  /* background-image: url(./img/a.jpg), linear-gradient(0deg, rgba(0,0,0,0.5) 39%, rgba(105,105,105,0.5) 64%, rgba(255,255,255,0.3) 100%);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; */
+}
+
+.date {
+  width: 265px;
+  height: 34px;
+  margin-left: 2em;
+}
+
+.date span {
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.date span:first-child {
+  width: 25%;
+  background-color: rgb(194, 36, 36);
+}
+
+.date span:last-child {
+  width: 75%;
+  background-color: rgba(51, 51, 51, 0.3);
+}
+
+.name-wrap {
+  margin-bottom: 30px;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.name-haha {
+  width: 50%;
+}
+
+.name-left span {
+  font-size: 12px;
+}
+
+.name-left h3 {
+  font-size: 28px;
+}
+
+.name-right {
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+}

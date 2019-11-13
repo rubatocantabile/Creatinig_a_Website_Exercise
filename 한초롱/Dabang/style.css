@@ -1,17 +1,22 @@
 .header {
-  position: absolute;
-  justify-content: space-between;
-  align-items: center;
+  
 }
 
 .left {
- 
+  display: flex; 
+  align-items: center;
+  width: 50%;
 }
 
 .right {
-
+  display: flex;
+  width: 50%;
 }
 
 a {
+  cursor: pointer;
+}
+
+.signinup {
   cursor: pointer;
 }

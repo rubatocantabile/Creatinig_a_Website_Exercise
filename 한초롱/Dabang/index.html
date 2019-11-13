@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <title>부동산 필수 앱 다방</title>
 </head>
 
 <body>
-  <header class="haeder">
+  <header id="header" class="header">
     <div class="left">
       <div>
         <a href="#">다방</a>
@@ -21,19 +22,29 @@
       </div>
     </div>
     <div class="right">
-      <ul>
-        <li><a href="#" target="_blank">방찾기</a></li>
-        <li><a href="#" target="_blank">분양</a></li>
-        <li><a href="#" target="_blank">관심목록</a></li>
-        <li><a href="#" target="_blank">방내놓기</a></li>
-        <li><a href="#" target="_blank">알림</a></li>
-      </ul>
-    <a href="#" target="_blank">회원가입
-      <span>.</span>
-      로그인
-    </a>
+      <div>
+        <ul>
+          <li><a href="#" target="_blank">방찾기</a></li>
+          <li><a href="#" target="_blank">분양</a></li>
+          <li><a href="#" target="_blank">관심목록</a></li>
+          <li><a href="#" target="_blank">방내놓기</a></li>
+          <li><a href="#" target="_blank">알림</a></li>
+        </ul>
+
+      <!-- 회원 가입이 a태그로 되어있는 이유 알아보기 -->
+        <div class="signinup">회원가입
+          <span>.</span>
+          로그인
+        </div>
+      </div>
+      
     </div>
   </header>
-  
+  <main>
+    <form action="/search">
+      <input type="text">
+      <input type="submit">
+    </form>
+  </main>
 </body>
 </html>

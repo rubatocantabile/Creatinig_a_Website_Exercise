@@ -191,6 +191,7 @@ h2 {
 .date span:first-child {
   width: 25%;
   background-color: rgb(194, 36, 36);
+  cursor: pointer;
 }
 
 .date span:last-child {
@@ -221,3 +222,43 @@ h2 {
   justify-content: flex-end;
   text-align: right;
 }
+
+.detail {
+  background: #fff;
+  display: flex;
+  height: 110px;
+}
+
+.detail .column {
+  padding: 1em;
+  flex-grow: 1;
+  flex-basis: 115px;
+  position: relative;
+}
+
+.detail .column span {
+  display: block;
+  font-size: 14px;
+}
+
+.detail .column span.type {
+  color: gray;
+  margin-bottom: 8px;
+}
+
+.detail .column:not(:last-child):after {
+  content: '';
+  height: 60px;
+  border-right: 1px solid gray;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+/* .detail .column:last-child:after {
+  display: none;
+} */
+
+
+

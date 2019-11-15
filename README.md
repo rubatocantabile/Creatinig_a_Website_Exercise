@@ -61,3 +61,4 @@ scss를 css로 변환해 주는 컴파일러입니다.
 - [JavaScript 재입문하기 (JS ​튜토리얼)](https://developer.mozilla.org/ko/docs/A_re-introduction_to_JavaScript)
 - **[css3 선택자(셀렉터)](https://techhtml.github.io/selectors/)**
 - [:Nth-Child() 선택자에 대한 CSS 적용방법, 홀수 및 짝수번째 요소 선택](https://webisfree.com/2015-10-10/[css]-nth-child()-선택자에-대한-css-적용방법-홀수-및-짝수번째-요소-선택)
+- [seomal(이고잉이 만든 프로그래밍 언어 관계도)](https://seomal.org/)

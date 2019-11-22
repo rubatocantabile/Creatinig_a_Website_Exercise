@@ -63,3 +63,13 @@ scss를 css로 변환해 주는 컴파일러입니다.
 - [:Nth-Child() 선택자에 대한 CSS 적용방법, 홀수 및 짝수번째 요소 선택](https://webisfree.com/2015-10-10/[css]-nth-child()-선택자에-대한-css-적용방법-홀수-및-짝수번째-요소-선택)
 - [seomal(이고잉이 만든 프로그래밍 언어 관계도)](https://seomal.org/)
 - [퀴즈로 풀어보는 CSS z-index 속성의 3가지 포인트](http://dev.epiloum.net/904)
+
+
+## 자바스크립트 학습 자료
+
+- [let, const와 블록 레벨 스코프](https://poiemaweb.com/es6-block-scope)
+- [함수 표현식 vs 함수 선언식](https://joshua1988.github.io/web-development/javascript/function-expressions-vs-declarations/#함수-선언식과-표현식의-차이점)
+- [함수 호출 방식에 의해 결정되는 this](https://poiemaweb.com/js-this)
+- [스코프](https://poiemaweb.com/js-scope)
+- [이벤트](https://poiemaweb.com/js-event)
+- [let과 const는 호이스팅 될까?](https://medium.com/korbit-engineering/let과-const는-호이스팅-될까-72fcf2fac365)
